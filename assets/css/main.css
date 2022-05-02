@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../fonts/ProductSans-Black.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'Google Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bold{
+  font-weight: 600;
+}
+body{
+  background-color: red;
+}
+.popup-bg{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.popup-form{
+  display: inline-block;
+  width: 300px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #dedede;
+}
+.popup-form__title{
+  margin-bottom: 15px;
+}
+.popup-form input{
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: solid 1px #757575;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+.popup-form button{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  background-color: #757575;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  transition: all 1s;
+  cursor: pointer;
+}
+.popup-form button:hover{
+  background-color: #ffffff;
+  border: solid 2px #757575;
+  color: #757575;
+}
+.errors-list__item{
+  color: red;
+  margin-bottom: 5px;
+}
